@@ -10,7 +10,7 @@ const Name = () => {
       <div className="mb-8">
 
         <h1 className="text-4xl font-bold">
-          <div className=" grid grid-flow-row md:flex md:gap-2">
+          <div className="">
             <span>{firstName}</span>
             <span> {otherNames}</span>
           </div>

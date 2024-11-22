@@ -14,11 +14,13 @@ const Layout = () => {
     scrollbarWidth: 'none',  /* Firefox */
   };
   return (
-    <div className="bg-gray-900 text-gray-300 h-full  ">
-      <div className=" p-8 grid grid-cols-2">
+    <div className="bg-gray-900 text-gray-300 h-full ">
+      <div className=" p-8 md:grid md:grid-cols-2 flex fle flex-col-reverse">
         <div className="container-one w-full text-left pl-10 mx-auto">
           <div className="mt-8 ">
+            <div className="hidden md:block">
             <ProfileImage />
+            </div>
             <div className="max-h-screen custom-scrollbar " style={customScrollbarStyle} >
               <Education />
               <Contact />
@@ -28,6 +30,9 @@ const Layout = () => {
         </div>
         <div className="container-two  text-left w-full pl-10 mx-auto">
           <div className="mt-8">
+            <div className="md:hidden">
+            <ProfileImage />
+            </div>
             <Name />
             <div className="max-h-screen custom-scrollbar " style={customScrollbarStyle} >
               <Profile />
