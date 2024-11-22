@@ -25,7 +25,6 @@ const Layout = () => {
               <Education />
               <Contact />
             </div>
-
           </div>
         </div>
         <div className="container-two  text-left w-full pl-10 mx-auto">
