@@ -9,7 +9,7 @@ interface ExperienceItem{
     title:string,
     date:string,
     companyName:string,
-    details:string,
+    details:string [],
 }
 
 interface EducationItem {

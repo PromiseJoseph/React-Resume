@@ -8,12 +8,12 @@ const Contact = () => {
     {
       id: 1,
       name: "Phone",
-      detail: "+234",
+      detail: "+234 .....",
     },
     {
       id: 2,
       name: "Email",
-      detail: "name@exampe.com",
+      detail: "....",
     },
   ];
 

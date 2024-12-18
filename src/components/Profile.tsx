@@ -8,9 +8,8 @@ const Profile = () => {
         <h3 className="text-3xl font-bold">Profile</h3>
         <hr className="border-t-2 border-blue-500 w-12 my-2" />
         <p className="pl-6">
-          For more Sales, Leads, Customer Engagement. Become an Author, Create
-          Information Products. All done quickly and easily. No Design or
-          Technical skills necessary
+          Hardworking and reliable Fullstack Engineer with strong ability Vue,React,PHP, Laravel,Node.Js. Offering development skills. 
+          Highly organized, proactive and punctual with a team-oriented mentality
         </p>
       </div>
 

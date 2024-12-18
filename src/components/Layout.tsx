@@ -27,7 +27,7 @@ const Layout = () => {
             </div>
           </div>
         </div>
-        <div className="container-two  text-left w-full pl-10 mx-auto">
+        <div className="container-two  text-left w-full pl-10 mx-auto md:mt-10">
           <div className="mt-8">
             <div className="md:hidden">
             <ProfileImage />
@@ -50,8 +50,8 @@ export const ProfileImage = () => {
     <>
       <div className="mb-8  mx-auto">
         <img
-          src="https://placehold.co/100x100"
-          alt="Profile picture of Odelola Promise"
+          src="../images/image_one.jpg"
+          alt="profile pic"
           className="rounded-full w-56 mb-4"
         />
       </div>
